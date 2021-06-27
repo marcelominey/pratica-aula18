@@ -5,6 +5,7 @@ import { ContactCreateComponent } from './contact-create/contact-create.componen
 import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactUpdateComponent } from './contact-update/contact-update.component';
 
+
 const routes: Routes = [
   { path: 'contacts', component: ContactListComponent },
   { path: 'contacts/create', component: ContactCreateComponent },
