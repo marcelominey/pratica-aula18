@@ -10,7 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
-//import { MatList } from '@angular/material/list';
+import { MatListModule } from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactCreateComponent } from './contact-create/contact-create.component';
@@ -34,7 +34,7 @@ import { ContactUpdateComponent } from './contact-update/contact-update.componen
     MatInputModule,
     MatFormFieldModule,
     MatIconModule ,
-    //MatList ,
+    MatListModule ,
     MatToolbarModule ,
 
   ],

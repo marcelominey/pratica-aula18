@@ -2,3 +2,17 @@
 <mat-toolbar>
     <span>My Application</span>
   </mat-toolbar>
+
+  <mat-nav-list>
+    <mat-list-item >
+       <a matLine href="oba">Contato 1</a>
+       <button mat-icon-button>
+          <mat-icon>delete</mat-icon>
+       </button>
+    </mat-list-item>
+  </mat-nav-list>
+
+
+  <a class="create" routerLink = '/contacts/create' mat-fab color="primary" aria-label="Novo contato (contacts/create)">
+    <mat-icon>add</mat-icon>
+  </a>
